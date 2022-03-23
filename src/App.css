@@ -1,0 +1,62 @@
+.pokemon_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.container{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 800px;
+    background-color: #FDD200;
+
+}
+.container > .pokemonCard{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.pokemonCard{
+    background-color: whitesmoke;
+    width: 150px;
+    height: 350px;
+    align-items: center;
+}
+h2{
+    display: inline;
+}
+p{
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+body{
+    background-color: #FDD200;
+}
+
+ul{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0px;
+}
+
+.ability{
+    border: solid black;
+
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+button:disabled{
+    background-color: lightsteelblue;
+}
+
+.navigationBtn{
+    background-color: steelblue;
+    width: 75px;
+}
